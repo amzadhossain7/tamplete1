@@ -1,0 +1,463 @@
+/* header css */
+.login_section {
+
+    min-height: 100vh;
+
+    align-items: center;
+
+    background: #e3ebf4;
+
+    position: relative;
+}
+
+.logo {
+
+    padding: 36px 0 55px 72px;
+}
+
+.frame {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+
+/* hero css */
+
+.hero_height {
+    min-height: 780px;
+}
+
+.hero_content h2 {
+
+    font-size: 24px;
+
+    font-family: "Montserrat", serif;
+
+    font-weight: bold;
+
+    line-height: 28px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.hero_content p {
+
+    font-size: 12px;
+
+    font-weight: 400;
+
+    font-family: "Montserrat", serif;
+
+    line-height: 24px;
+
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: linear-gradient(90deg, rgba(70, 20, 202, 1) 0%, rgba(149, 77, 225, 1) 100%);
+    width: 16px;
+    height: 16px;
+}
+
+.h_image {
+    text-align: center;
+}
+
+.h_image img {
+    height: 100%;
+    width: 557px;
+    margin-bottom: 30px;
+}
+
+/* form css */
+
+.form_content {
+
+    background: #F1F5F9;
+
+    width: 490px;
+
+    min-height: 694px;
+
+    margin: auto;
+
+    padding: 50px 50px 0px;
+
+    border-radius: 10px;
+
+    box-shadow: -6px -6px 12px #ffff, 6px 6px 12px #D4E0EB;
+}
+
+.form_title h3 {
+
+    color: #4A17CB;
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    font-family: "Montserrat", serif;
+
+    letter-spacing: 0.07px;
+
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+
+.form_title span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(63, 117, 243, 0) 0%, rgba(63, 117, 243, 1) 50%, rgba(63, 117, 243, 0) 100%);
+    margin-bottom: 50px;
+}
+
+.input_email {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #f1f5f9;
+
+    padding: 12px 0;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: inset 4px 4px 4px #D4E0EB, inset -4px -4px 4px #ffff;
+}
+
+.input_email img {
+    width: 24px;
+}
+
+.input_email .i_icon {
+
+    padding: 0 20px;
+}
+
+.divider-input {
+    display: block;
+    width: 1px;
+    height: 34px;
+    background: #C0D8F0;
+}
+
+.input_email input {
+    color: #5A5A5A;
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+    padding: 4px 20px;
+    border: 0;
+    border-radius: 0px;
+    background: transparent;
+    outline: none;
+}
+
+.form-control:focus {
+    color: #000;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+}
+
+.cus_btn {
+
+    color: #ffff !important;
+
+    width: 100%;
+
+    background: linear-gradient(90deg, rgba(70, 20, 202, 1) 0%, rgba(149, 77, 225, 1) 100%);
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    font-family: "Montserrat", serif;
+
+    padding: 14px;
+
+    margin: 10px 0 40px;
+
+    border-radius: 10px;
+}
+
+.cus_btn i {
+
+    font-size: 14px;
+
+    padding-left: 8px;
+}
+
+.form-account {
+
+    text-align: center;
+}
+
+.form-account a {
+    text-decoration: none;
+    color: #4A17CB;
+}
+
+.form-account h2 {
+
+    color: #4A17CB !important;
+
+    font-size: 18px;
+
+    font-family: "Montserrat", serif;
+
+    font-weight: normal;
+
+    margin-bottom: 15px;
+}
+
+.form-account h3 {
+
+    color: #4A17CB;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    font-family: "Montserrat", serif;
+
+    margin-bottom: 50px;
+}
+
+.form-account h3 i {
+
+    margin-left: 5px;
+}
+
+.form-account p a {
+
+    color: #7a7a7a !important;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    font-family: "Montserrat", serif;
+
+    margin-bottom: 36px;
+}
+
+.form-account ul {
+
+    list-style: none;
+
+    display: inline-flex;
+
+    justify-items: center;
+
+    text-align: center;
+
+    padding: 0 !important;
+
+    margin: 0;
+}
+
+.form-account ul li {
+    margin: 0 10px;
+}
+
+.form-account ul li img {
+
+    width: 24px;
+}
+
+@media (max-width: 1440px) {
+
+    .logo {
+        padding: 27px 0 48px 50px;
+    }
+
+    .logo img {
+        width: 155px;
+        height: 45px;
+    }
+
+    .frame img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero_height {
+        min-height: 550px;
+    }
+
+    .h_image img {
+        width: 420px;
+        margin-bottom: 23px;
+    }
+
+    .hero_content h2 {
+        margin-bottom: 15px;
+    }
+
+    .hero_content p {
+        margin-bottom: 42px;
+    }
+
+    .dot.active {
+        width: 12px;
+        height: 12px;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+    }
+
+    .form_content {
+        width: 360px;
+        margin: 0;
+        min-height: 522px;
+        padding: 38px;
+    }
+
+    .form_title h3 {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+
+    .form_title span {
+        margin-bottom: 38px;
+    }
+
+    .input_email .i_icon {
+        padding: 0 15px;
+    }
+
+    .input_email input {
+
+        padding: 0px 15px;
+    }
+
+    .input_email {
+        margin-bottom: 15px;
+    }
+
+    .divider-input {
+        height: 28px;
+    }
+
+    .form-account h2 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .cus_btn {
+        padding: 12px;
+        margin: 8px 0 30px;
+    }
+
+    .form-account h3 {
+        font-size: 13px;
+        margin-bottom: 38px;
+    }
+
+    .form-account p a {
+        font-size: 14px;
+        margin-bottom: 23px;
+    }
+
+    .form-account ul li img {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+@media (max-width: 1336px) {
+    .logo img {
+        width: 144px;
+        height: 42px;
+    }
+
+    .frame img {
+        width: 152px;
+        height: 156px;
+    }
+
+    .logo {
+        padding: 25px 0 45px 38px;
+    }
+
+    .h_image img {
+        width: 390px;
+        margin-bottom: 21px;
+    }
+
+    .hero_content h2 {
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+
+    .hero_content p {
+        font-size: 11px;
+        margin-bottom: 40px;
+    }
+    .form_content {
+        width: 340px;
+        min-height: 485px;
+        padding: 35px;
+    }
+    .form_title h3 {
+        font-size: 23px;
+        margin-bottom: 35px;
+    }
+    .form_title span {
+        margin-bottom: 36px;
+    }
+    .input_email {
+        margin-bottom: 14px;
+    }
+    .input_email .i_icon {
+        padding: 0 14px;
+    }
+    .input_email input {
+        padding: 0 14px;
+    }
+    .cus_btn {
+        font-size: 14px;
+        padding: 12px;
+        margin: 8px 0 28px;
+    }
+    .form-account h2 {
+        margin-bottom: 11px;
+    }
+}
